@@ -1,0 +1,81 @@
+*{margin: 0;padding: 0;list-style-type: none;font-family: "微软雅黑";}
+#main{width: 100%;height: 100%;}
+.top{width: 100%;
+     height: 85px;
+     background: url("../Images/law-top.jpg");}
+.top h1{color: white;
+      margin-left: 30px;
+      line-height: 85px;}  
+.top p{float: right;
+      margin-top: -30px;
+     margin-right:70px;}      
+       
+.nav{width: 100%;
+  height: 35px;
+  background-color: #97efcb;
+  float: left;}
+.nav ul{list-style: none;
+      float: right;
+      width: 180px;}
+.nav ul li a{float: left;
+            text-decoration: none;
+            padding: 6px;
+            color: #555555;} 
+.nav ul li a:hover{color: red;text-decoration: underline;}             
+.left{width: 15%;
+     height: 800px;
+     border: 5px solid #97efcb;
+     float: left;}
+#menu_left{width:15%;
+      height: 805px;
+      float: left;
+      overflow: hidden;
+      }
+#menu_left ul li ul li a{text-decoration: none;
+                        color: #39a9ab;}
+#menu_left ul li ul li a:hover{display: block;
+                    background-color: #70B2E2;
+                    color: white;}         
+#menu_left ul{
+	list-style: none;
+	height:60px;
+  line-height:60px;
+  cursor:pointer;
+  color:#39a9ab;
+  background-color: #97EFCB;
+  text-align: center;}
+
+#menu_left ul li ul li{
+  line-height: 38px;
+}
+#menu_left .ul>li{
+	 background:  #ede9eb;
+	 position: relative;
+	 border-bottom: 1px solid #CCCCCC;
+   }
+#menu_left .ul>li:after{
+	position: absolute;
+	top:20px;
+	right:0;
+	content: "";
+	width: 0;
+	height: 0;
+	border: 10px #CCCCCC solid;
+	border-width: 10px 20px 10px 20px;
+	border-color:transparent transparent transparent #CCCCCC!important;
+	transform-origin: 25% 50%;
+	transition: 0.5s;
+	}
+#menu_left ul li ul{
+	height: 0;
+	transition: 0.5s;
+	overflow: hidden;
+}
+#menu_left ul .active ul{
+	height: 120px;
+}
+#menu_left ul>.active:after{
+	transform: rotate(90deg);}
+.right{width: 84%;
+  height: 810px;
+  float: left;}

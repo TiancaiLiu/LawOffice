@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>123</title>
+		<link href="__PUBLIC__/Css/style2.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="main">
+			<div><a>博文共享>></a><a href="{:U(GROUP_NAME . '/Blog/index')}" style="text-decoration:none;">返回>></a></div>
+			<div class="left">
+				<foreach name="list" item="v">
+					<strong>{$v.title}</strong>
+					<span style="margin-right: 200px;color:blue">{$v.author}</span><span style="color:#BB7070">{$v.time|date='Y/m/d',###}</span>
+					<div class="con">
+						{$v.content}
+					</div>
+				</foreach>
+			</div>
+			<div class="right">
+				<div class="right_1">
+					<strong>友情链接</strong>
+					<ul>
+						<li><a href="#">吉林律师网</li>
+						<li><a href="#">中国律师网</li>
+						<li><a href="#">律师博文网</li>
+						<li><a href="#">博客之家</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

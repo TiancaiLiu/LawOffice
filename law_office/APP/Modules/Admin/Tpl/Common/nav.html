@@ -1,0 +1,16 @@
+</head>
+<body>
+	<div class='top-nav-wrap'>
+		<ul class='nav-lv1'>
+			<nav order='sort ASC'>	
+				<li class='nav-lv1-li'>
+					<a href="{$url}" class='top-cate'>{$name}</a>
+						<ul>
+							<foreach name='child' item='v'>
+								<li><a href="{:U('/c_' . $v['id'])}">{$v.name}</a></li>
+							</foreach>
+						</ul>
+				</li>
+			</nav>
+		</ul>
+	</div>

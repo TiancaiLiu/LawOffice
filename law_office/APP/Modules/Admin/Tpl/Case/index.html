@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>博文列表</title>
+		<link rel="stylesheet" href="__PUBLIC__/Css/law.css" type="text/css"/>
+		<link rel="stylesheet" href="__PUBLIC__/Css/public2.css" type="text/css"/>
+	</head>
+	<body>
+			<table class="table">
+			<tr>
+				<th>ID</th>
+				<th>所属分类</th>
+				<th>标题</th>
+				<th>时间</th>
+				<th>操作</th>
+			</tr>
+			<foreach name='case' item='v'>
+				<tr style="text-align:center">
+					<td width='8%'>{$v.id}</td>
+					<td width='12%'>{$v.cate}</td>
+					<td width='12%'><strong>{$v.title}</strong></td>
+					<td width='12%'>{$v.addT|date='Y-m-d',###}</td>
+					<td width='12%'>
+						<if condition='ACTION_NAME eq "index"'>
+							[<a href="#">修改</a>]
+							[<a href="{:U(GROUP_NAME . '/Case/toTrach', array('id' => $v['id'],'type' => 1))}">删除</a>]
+						<else/>
+							[<a href="{:U(GROUP_NAME . '/Case/toTrach', array('id' => $v['id'],'type' => 0))}">还原</a>]
+							[<a href="{:U(GROUP_NAME . '/Case/delete',array('id' => $v['id'] ))}">彻底删除</a>]
+						</if>
+					</td>
+				</tr>
+			</foreach>
+			
+
+		</table>
+	</body>
+</html>

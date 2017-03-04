@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#main{
+	width: 100%;
+	background-color: #eeeeee;
+	height: 100%;
+	float: left;
+}
+#main ul {
+	list-style: none;
+	background-color: white;
+	font-family: "微软雅黑";
+}
+.left{
+	width: 800px;
+	border: 1px solid #C2C2C2;
+	/*border-radius:10px;*/
+	float: left;
+	margin-left: 50px;
+	margin-top: 15px;
+	font-family: "微软雅黑"; 
+}
+.left strong{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #C2C2C2;
+	padding-left:15px ;
+	background-color: #f8f8f8;
+	font-family: "微软雅黑";
+}
+.left li p{
+	float: left;
+	margin-right: 15px;
+	margin-left: 5px;
+	font-family: "微软雅黑";
+}
+.left ul li span{
+	float: left;
+	font-family: "微软雅黑";
+}
+.left li a{
+	display: block;
+    float: right;
+    text-decoration: none;
+    color: #000000;
+    margin-right:10px ;
+    font-family: "微软雅黑";
+    }
+.left li a:hover{
+	color: orangered;
+	text-decoration: underline;
+}
+.right{
+	width: 320px;
+	float: left;
+
+}
+.right_1{
+	margin-top: 15px;
+	width: 320px;
+	border: 1px solid #C2C2C2;
+	/*border-radius: 10px;*/
+	float: left;
+	margin-left: 50px;
+	font-family: "微软雅黑";
+}
+.right strong{
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px solid #C2C2C2;
+	padding-left:15px ;
+	background-color: #f8f8f8;
+	font-family: "微软雅黑";
+}
+.right ul li,.left ul li {
+	margin-left: 10px;
+	height: 30px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+}
+.right ul li a{
+	text-decoration: none;
+	color: #3361ad;
+	font-family: "微软雅黑";
+}
+.right em{
+	color: #9999b2;
+}

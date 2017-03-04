@@ -1,0 +1,23 @@
+<include file='Common:header'/>
+	<link rel="stylesheet" href="__PUBLIC__/Css/list.css" />
+<include file='Common:nav'/>
+<!--主体-->
+	<div class='main'>
+		<div class='main-left'>
+			<foreach name='case' item='v'>
+				<dl>
+					<dt>{$v.title}</dt>
+					<dd class='info'>
+						<span class='time'>发布于：{$v.addT|date='Y年m月d日 H:i:s', ###}</span>
+					</dd>
+					<dd class='content'>{$v.charac}</dd>
+					<dd class='read'>
+						<a href="{:U('/' . $v['id'])}">阅读全文>></a>
+					</dd>
+				</dl>
+			</foreach>
+			<p>{$page}</p>
+		</div>
+	<include file='Common:right'/>
+	</div>
+<include file='Common:bottom'/>

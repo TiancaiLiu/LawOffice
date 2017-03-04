@@ -1,0 +1,10 @@
+<dl>
+	<dt>热门博文</dt>
+	<foreach name='case' item='v'>
+		<dd>
+			<a href="{:U('/' . $v['id'])}" target="_blank">{$v.title}</a>
+			<span>{$v.addT|date='Y/m/d',###}</span>
+		</dd>
+	</foreach>
+
+</dl>

@@ -1,0 +1,133 @@
+[ 2016-05-30T11:14:17+08:00 ] 0.0.0.0 /law%20office/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\Demophp\law office\APP\Modules\Admin\Action\IndexAction.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009565s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000721s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000714s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000536s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003131s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001088s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2016-05-30T11:14:34+08:00 ] 0.0.0.0 /law%20office/index.php/Register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001182s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.112255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112495s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002321s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001745s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006042s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001288s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002030s ]
+
+[ 2016-05-30T11:14:52+08:00 ] 0.0.0.0 /law%20office/index.php/Admin/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003075s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\Demophp\law office\APP\Modules\Admin\Action\IndexAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `law_user` [ RunTime:0.262273s ]
+SQL: SELECT * FROM `law_user`  [ RunTime:0.001496s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011826s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001313s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001103s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001185s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004752s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000485s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Constant THEME_PATH already defined D:\Demophp\law office\ThinkPHP\Lib\Core\View.class.php 第 151 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\Demophp\law office\ThinkPHP\Lib\Core\View.class.php 第 152 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003245s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005852s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000079s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000068s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000015s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004378s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000093s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.004337s ]
+
+[ 2016-05-30T11:14:54+08:00 ] 0.0.0.0 /law%20office/index.php/Content/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000632s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014215s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001256s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001378s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001013s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006293s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001227s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2016-05-30T11:16:03+08:00 ] 0.0.0.0 /law%20office/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\Demophp\law office\APP\Modules\Admin\Action\IndexAction.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009775s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000676s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000695s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002991s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000774s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-05-30T11:17:20+08:00 ] 0.0.0.0 /law%20office/index.php/Register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004698s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002791s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017285s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000748s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000768s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005164s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003242s ]
+

@@ -1,0 +1,222 @@
+[ 2016-06-18T20:28:29+08:00 ] 127.0.0.1 /law_office/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\myphp\law_office\APP\Modules\Admin\Action\IndexAction.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013545s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000619s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000637s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002654s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000718s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-06-18T20:28:36+08:00 ] 127.0.0.1 /law_office/index.php/Admin/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\myphp\law_office\APP\Modules\Admin\Action\IndexAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `law_user` [ RunTime:0.067537s ]
+SQL: SELECT * FROM `law_user`  [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016537s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000631s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000641s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000542s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002680s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000730s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2016-06-18T20:28:42+08:00 ] 127.0.0.1 /law_office/index.php/Admin/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000820s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\myphp\law_office\APP\Modules\Admin\Action\IndexAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `law_user` [ RunTime:0.023103s ]
+SQL: SELECT * FROM `law_user`  [ RunTime:0.000179s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006580s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000933s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001014s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000642s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003534s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001069s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2016-06-18T20:28:46+08:00 ] 127.0.0.1 /law_office/index.php/Admin/Index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000915s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\myphp\law_office\APP\Modules\Admin\Action\IndexAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `law_user` [ RunTime:0.011559s ]
+SQL: SELECT * FROM `law_user`  [ RunTime:0.000213s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008071s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000630s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000604s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002569s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] Constant THEME_PATH already defined E:\wamp\www\myphp\law_office\ThinkPHP\Lib\Core\View.class.php 第 151 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\wamp\www\myphp\law_office\ThinkPHP\Lib\Core\View.class.php 第 152 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002646s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003885s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000058s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000073s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000012s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004029s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000045s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.003645s ]
+
+[ 2016-06-18T20:28:47+08:00 ] 127.0.0.1 /law_office/index.php/Content/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002381s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002604s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030228s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001013s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001023s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000898s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004335s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001198s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2016-06-18T20:28:47+08:00 ] 127.0.0.1 /law_office/index.php/Content/show.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000816s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\wamp\www\myphp\law_office\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\wamp\www\myphp\law_office\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\wamp\www\myphp\law_office\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006580s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000616s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000630s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000550s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002663s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000735s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2016-06-18T20:28:50+08:00 ] 127.0.0.1 /law_office/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000816s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\myphp\law_office\APP\Modules\Admin\Action\BlogAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `law_blog` [ RunTime:0.039250s ]
+SQL: SELECT * FROM `law_blog`  [ RunTime:0.000197s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009374s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000622s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000628s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000534s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002632s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000716s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-06-18T20:28:52+08:00 ] 127.0.0.1 /law_office/index.php/Admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000823s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\myphp\law_office\APP\Modules\Admin\Action\BlogAction.class.php 第 3 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024734s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000614s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000619s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000569s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002737s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000784s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-06-18T20:28:53+08:00 ] 127.0.0.1 /law_office/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000805s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\myphp\law_office\APP\Modules\Admin\Action\BlogAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `law_blog` [ RunTime:0.003195s ]
+SQL: SELECT * FROM `law_blog`  [ RunTime:0.000186s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007987s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000597s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000827s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003444s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000848s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2016-06-18T20:28:56+08:00 ] 127.0.0.1 /law_office/index.php/Admin/Blog/content/id/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000803s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\myphp\law_office\APP\Modules\Admin\Action\BlogAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `law_blog` [ RunTime:0.003269s ]
+SQL: SELECT * FROM `law_blog` WHERE ( `id` = 2 )  [ RunTime:0.000201s ]
+

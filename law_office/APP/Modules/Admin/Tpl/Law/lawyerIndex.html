@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>律师个人</title>
+		<link rel="stylesheet" href="__PUBLIC__/Css/law.css" type="text/css"/>
+	</head>
+	<body>
+			<div class="content-right">
+				<a>律师介绍>></a><a href="{:U(GROUP_NAME . '/Law/lawyerIndex')}">律师列表>></a> 
+				<foreach name='lawyer' item='v'>
+				<div class="item">
+					<img src="__ROOT__/Uploads/{$v.photo}" alt="" />
+					<div class="item-p">
+						<p class="name">姓名：<b>{$v.name}</b></p>
+						<p class="name">特点：{$v.summary}</p>
+						<p class="name">律师简介:{$v.content}</p>
+						
+						<if condition='ACTION_NAME eq "lawyerIndex"'>
+						   [<a href="{:U(GROUP_NAME . '/Law/toTrach',array('id' => $v['id'],'type' => 1))}">删除</a>]
+						<else/>
+						   [<a href="{:U(GROUP_NAME . '/Law/toTrach',array('id' => $v['id'],'type' => 0))}">还原</a>]
+						   [<a href="{:U(GROUP_NAME . '/Car/delete', array('id' => $v['id']))}">彻底删除</a>]
+						</if>
+						
+					</div>
+				</div>
+				<hr />
+			</foreach>
+			<p>{$page}</p>
+			</div>
+	</body>
+</html>

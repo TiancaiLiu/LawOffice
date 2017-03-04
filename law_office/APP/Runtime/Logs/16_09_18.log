@@ -1,0 +1,6 @@
+[ 2016-09-18T15:36:02+08:00 ] 0.0.0.0 /law_office/c_4
+ERR: Model:fields您所请求的方法不存在！
+
+[ 2016-09-18T18:26:07+08:00 ] 0.0.0.0 /law_office/Admin/indexcase/index
+ERR: 无法加载模块:indexcase
+

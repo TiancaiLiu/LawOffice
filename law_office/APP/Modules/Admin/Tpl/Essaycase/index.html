@@ -1,0 +1,32 @@
+<include file='Common:header'/>
+	<link rel="stylesheet" href="__PUBLIC__/Css/show.css" />
+<include file='Common:nav'/>
+<!--主体-->
+	<div class='main'>
+		<div class='main-left'>
+			<div class='location'>
+				<a href="{:U(GROUP_NAME . '/Indexcase/index')}">返回首页</a>
+			</div>
+			<div class="title">
+				<p>{$case.title}</p>
+				<div>
+					<span class='fl'>发布于：{$case.addT|date='Y年m月d日',###}</span>
+					<span class='fr'>结案时间：{$case.endT|date='Y年m月d日',###}</span>
+				</div>
+			</div>
+			<div class='content'>
+				<p style="color:red;">案件性质:</p>{$case.charac}
+				<p style="color:red;">代理阶段:</p> {$case.stage}
+				<p style="color:red;">委托人:</p>{$case.client}
+				<p style="color:red;">委托时间:</p>{$case.clientT}
+				<p style="color:red;">委托内容:</p>{$case.clientC}	
+				<p style="color:red;">结案时间:</p>{$case.endT}
+				<p style="color:red;">代理律师:</p>{$case.attor}
+				<p style="color:red;">案情摘要:</p>{$case.summa}
+				<p style="color:red;">工作记录:</p>{$case.jobLogg}
+				<p style="color:red;">律师评价:</p>{$case.evalua}
+			</div>
+		</div>
+	<include file='Common:right'/>
+	</div>
+<include file='Common:bottom'/>

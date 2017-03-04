@@ -1,0 +1,22 @@
+<include file='Common:header'/>
+	<link rel="stylesheet" href="__PUBLIC__/Css/index.css" />
+<include file='Common:nav'/>
+<!--主体-->
+	<div class='main'>
+		<div class='main-left'>
+			<p>案件列表</p>
+			<foreach name='cate' item='v'>
+				<dl>
+					<dt>{$v.name}<a href="{:U('/c_' . $v['id'])}">更多>></a></dt>
+					<foreach name='v.case' item='value'>
+						<dd>
+							<a href="{:U('/' . $value['id'])}">{$value.title}</a>
+							<span>{$value.addT|date='m/d',###}</span>
+						</dd>
+					</foreach>
+				</dl>
+			</foreach>
+		</div>
+	<include file='Common:right'/>
+	</div>
+<include file='Common:bottom'/>

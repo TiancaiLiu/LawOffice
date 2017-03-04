@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册律师一览表</title>
+		<link rel="stylesheet" href="__PUBLIC__/Css/law.css" type="text/css"/>
+		<link rel="stylesheet" href="__PUBLIC__/Css/public2.css" type="text/css"/>
+		<style type="text/css">
+			.table tr td{text-align: center;}
+		</style>
+	</head>
+	<body>
+		<div><a style="text-decoration:none;">律师管理>></a><a href="{:U(GROUP_NAME . '/Manage/index')}" style="text-decoration:none;">注册律师一览表</a></div>
+		<table class="table">
+			<tr>
+				<th>序号</th>
+				<th>用户名</th>
+				<th>律师姓名</th>
+				<th>证件号</th>
+				<th>身份证号</th>
+				<th>登录密码</th>
+				<th>联系电话</th>
+				<th>电子邮箱</th>
+			</tr>
+			<foreach name="index" item="v">
+				<tr>
+					<td>{$v.id}</td>
+					<td>{$v.username}</td>
+					<td>{$v.realname}</td>
+					<td>{$v.idnum}</td>
+					<td>{$v.idcard}</td>
+					<td>{$v.pwd}</td>
+					<td>{$v.tel}</td>
+					<td>{$v.email}</td>
+				</tr>
+			</foreach>
+			<p>{$page}</p>
+		</table>
+	</body>
+</html>
